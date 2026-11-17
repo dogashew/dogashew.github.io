@@ -8,6 +8,7 @@ on:
     - cron: '2-57/5 * * * *'
 permissions:
   contents: write
+  actions: write
   pages: write
   id-token: write
 concurrency:
@@ -30,6 +31,7 @@ jobs:
       - uses: actions/configure-pages@v5
         if: steps.export.outputs.changed == 'true'
       - uses: actions/upload-pages-artifact@v4
+        id: artifact
         if: steps.export.outputs.changed == 'true'
         with:
           path: github-pages/site
@@ -37,6 +39,14 @@ jobs:
       - uses: actions/deploy-pages@v4
         id: deployment
         if: steps.export.outputs.changed == 'true'
+      - name: Remove temporary build archive after deployment
+        if: steps.deployment.outcome == 'success' && steps.export.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh api "repos/$GITHUB_REPOSITORY/actions/artifacts" --jq '.artifacts[] | select(.name == "github-pages") | .id' | while read -r artifact_id; do
+            gh api --method DELETE "repos/$GITHUB_REPOSITORY/actions/artifacts/$artifact_id"
+          done
       - name: Record successful publication and monthly activity
         run: |
           cp next-published.json published.json
