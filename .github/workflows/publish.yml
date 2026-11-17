@@ -1,0 +1,49 @@
+name: Publish IMAN
+on:
+  push:
+    branches: [main]
+    paths: [export.mjs, .github/workflows/publish.yml]
+  workflow_dispatch:
+  schedule:
+    - cron: '2-57/5 * * * *'
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: iman-pages
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v6
+      - name: Export public CMS content
+        id: export
+        env:
+          FORCE_PUBLISH: ${{ github.event_name != 'schedule' }}
+        run: node export.mjs
+      - uses: actions/configure-pages@v5
+        if: steps.export.outputs.changed == 'true'
+      - uses: actions/upload-pages-artifact@v4
+        if: steps.export.outputs.changed == 'true'
+        with:
+          path: github-pages/site
+          retention-days: 1
+      - uses: actions/deploy-pages@v4
+        id: deployment
+        if: steps.export.outputs.changed == 'true'
+      - name: Record successful publication and monthly activity
+        run: |
+          cp next-published.json published.json
+          git add published.json
+          if ! git diff --cached --quiet; then
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git commit -m 'Record public site synchronization'
+            git push
+          fi
