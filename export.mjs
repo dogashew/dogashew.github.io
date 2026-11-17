@@ -6,6 +6,8 @@ const source='https://iman-center-website.pages.dev';
 const canonical='https://rc-iman.ru';
 const output=path.resolve(process.env.EXPORT_DIR||'github-pages/site');
 const assets=new Map();
+// Public styles used by the separate owner login and administration pages.
+assets.set('/assets/site.css','/assets/site.css');
 const pageContent=new Map();
 function target(p){
   const file=path.resolve(output,'.'+p);
@@ -49,7 +51,7 @@ await parallel(pages,async p=>{
   pageContent.set(p,html);
   await save((p==='/'?'':p.replace(/\/$/,''))+'/index.html',html);
 });
-const digest=createHash('sha256').update('export-v2').update(sitemap).update(JSON.stringify([...pageContent].sort(([a],[b])=>a.localeCompare(b)))).digest('hex');
+const digest=createHash('sha256').update('export-v3').update(sitemap).update(JSON.stringify([...pageContent].sort(([a],[b])=>a.localeCompare(b)))).digest('hex');
 let previous={};
 try{previous=JSON.parse(await readFile('published.json','utf8'));}catch{}
 const changed=previous.digest!==digest||process.env.FORCE_PUBLISH==='true';
