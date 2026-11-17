@@ -5,6 +5,9 @@ import path from 'node:path';
 const source='https://iman-center-website.pages.dev';
 const canonical='https://rc-iman.ru';
 const output=path.resolve(process.env.EXPORT_DIR||'github-pages/site');
+// BEGIN public presentation overrides
+const publicStyles=".public-site .consultation-call .button[data-whatsapp-url]{width:fit-content;max-width:100%;justify-self:start;min-height:42px;padding:10px 16px;font-size:14px;line-height:1.4;background:var(--deep-alt);border-color:var(--deep-alt);color:var(--white)}\n.public-site .consultation-call .button[data-whatsapp-url]:hover{background:var(--deep);border-color:var(--deep);color:var(--white)}\n.public-site .whatsapp-confirm{width:min(350px,calc(100vw - 32px));max-width:calc(100vw - 32px);box-sizing:border-box;padding:22px;border:0;border-radius:16px;background:#f7faf8;color:#0b2f2c;box-shadow:0 16px 56px #092b2940}\n.public-site .whatsapp-confirm::backdrop{background:rgba(6,28,26,.64)}\n.public-site .whatsapp-confirm h2{margin:0 0 18px;font-size:19px;line-height:1.35;color:#0b2f2c}\n.public-site .whatsapp-confirm-actions{display:flex;flex-wrap:wrap;gap:10px}\n.public-site .whatsapp-confirm-actions .button{flex:1;min-width:100px;min-height:42px;padding:10px 14px;font-size:14px;line-height:1.4}\n.public-site .whatsapp-confirm-actions .whatsapp-cancel{background:#e5eee8;color:#0b2f2c}\n.public-site .whatsapp-confirm:focus{outline:none}\n.public-site .whatsapp-confirm .button:focus:not(:focus-visible){outline:none;box-shadow:none}\n.public-site .whatsapp-confirm .button:focus-visible{outline:2px solid #52605a;outline-offset:3px}\n";
+// END public presentation overrides
 const assets=new Map();
 // Public styles used by the separate owner login and administration pages.
 assets.set('/assets/site.css','/assets/site.css');
@@ -35,7 +38,7 @@ function collect(text){
     if(!u.pathname.includes('..'))assets.set(u.pathname,u.pathname+u.search);
   }
 }
-function rewrite(s){return s.replaceAll(source,canonical);}
+function rewrite(s){return s.replaceAll(source,canonical).replace('</head>', '<style id="public-presentation">'+publicStyles+'</style></head>');}
 async function parallel(items,fn){
   let next=0;
   await Promise.all(Array.from({length:4},async()=>{while(next<items.length)await fn(items[next++]);}));
