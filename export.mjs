@@ -33,7 +33,7 @@ async function get(p){
   if(u.origin!==source||/^\/(admin|api)(\/|$)/.test(u.pathname))throw Error('Nonpublic path');
   for(let attempt=0;attempt<3;attempt++){
     try{
-      const r=await fetch(u,{redirect:'error',signal:AbortSignal.timeout(120000)});
+      const r=await fetch(u,{headers:{'X-Iman-Public-Export':'1'},redirect:'error',signal:AbortSignal.timeout(120000)});
       if(!r.ok)throw Error(`${r.status}: ${u.pathname}`);
       const b=Buffer.from(await r.arrayBuffer());
       if(b.length>95*1024*1024)throw Error('Asset exceeds Pages file limit');
