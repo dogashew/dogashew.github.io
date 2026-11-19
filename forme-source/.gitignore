@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.sites/
+*.tar.gz
+references/shop-thumbnails/
+
+references/longsleeve-downloads/
+references/*.jpg
+references/*sheet.png
+references/product-review*.png
+references/ps-product.html

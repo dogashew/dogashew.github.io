@@ -1,0 +1,1 @@
+export function filterProducts(list,filter){return list.filter(p=>(!filter.colors.length||filter.colors.includes(p.color))&&(!filter.size||p.sizes.includes(filter.size))&&(!filter.min||p.price>=Number(filter.min))&&(!filter.max||p.price<=Number(filter.max))).sort((a,b)=>filter.sort==='asc'?a.price-b.price:filter.sort==='desc'?b.price-a.price:0)}

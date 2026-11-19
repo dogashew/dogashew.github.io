@@ -2,7 +2,7 @@ name: Publish IMAN
 on:
   push:
     branches: [main]
-    paths: [export.mjs, .github/workflows/publish.yml]
+    paths: [export.mjs, .github/workflows/publish.yml, 'forme/**']
   workflow_dispatch:
   schedule:
     - cron: '3-58/5 * * * *'
@@ -28,6 +28,9 @@ jobs:
         env:
           FORCE_PUBLISH: ${{ github.event_name != 'schedule' }}
         run: node export.mjs
+      - name: Include separate FORME storefront
+        if: steps.export.outputs.changed == 'true'
+        run: cp -R forme github-pages/site/forme
       - uses: actions/configure-pages@v5
         if: steps.export.outputs.changed == 'true'
       - uses: actions/upload-pages-artifact@v4
