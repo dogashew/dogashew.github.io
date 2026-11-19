@@ -3,7 +3,7 @@ import fs from 'node:fs';
 import {data,catalogData,looks,lookItems,photo,read} from '../src/data.js';
 import {verifiedProducts} from '../src/verifiedProducts.js';
 import {filterProducts} from '../src/catalog.js';
-assert.equal(catalogData.length,47);assert.equal(verifiedProducts.length,19);assert.equal(verifiedProducts.filter(p=>p.category==='Лонгсливы').length,7);assert.equal(catalogData.find(p=>p.category==='Куртки').id,'bordered-cardigan');assert(!catalogData.some(p=>['hoodie','pocket-parka'].includes(p.id)));assert(catalogData.every(p=>p.post||p.sourceUrl));assert(!catalogData.some(p=>p.id==='longsleeve-ivory'));
+assert.equal(catalogData.length,45);assert.equal(verifiedProducts.length,17);assert.equal(verifiedProducts.filter(p=>p.category==='Лонгсливы').length,7);assert.equal(catalogData.find(p=>p.category==='Куртки').id,'bordered-cardigan');assert(!catalogData.some(p=>['hoodie','pocket-parka'].includes(p.id)));assert(catalogData.every(p=>p.post||p.sourceUrl));assert(!catalogData.some(p=>p.id==='longsleeve-ivory'));
 assert.equal(looks.length,12);for(let i=0;i<looks.length;i++){const path=`public/images/model-cutout-${i}.webp`;assert(fs.existsSync(path));assert(fs.statSync(path).size<256000);}
 const plain={colors:[],size:'',min:'',max:'',sort:'default'};
 assert.equal(filterProducts(data,plain).length,data.length);

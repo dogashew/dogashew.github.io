@@ -1,0 +1,84 @@
+{
+  "editorials": [
+    {
+      "id": "core-identity",
+      "title": "Контрастный трикотаж",
+      "image": "/images/editorials/core-identity.jpg",
+      "alt": "Мужчина в чёрном спортивном костюме с белыми вставками, в полный рост",
+      "source": "https://www.armani.com/en/ea7/core-identity-cotton-tracksuit-cod-7M001281-AF12681-UC001/",
+      "asset": "7M001281_AF12681_UC001_D_SS2026",
+      "download": "https://assets.armani.com/image/upload/f_auto,q_auto:best,ar_4:5,w_1536,c_fill/7M001281_AF12681_UC001_D_SS2026.jpg",
+      "sha256": "d77ded095642173e5a282aa7d55b94db2c922399691e9b1c1f115b46386e2e1e",
+      "processing": "Original CDN bytes. No local editing, no AI, no retouching."
+    },
+    {
+      "id": "italian-spirit",
+      "title": "Тёмно-синий силуэт",
+      "image": "/images/editorials/look-2.jpg",
+      "alt": "Мужчина в тёмно-синем спортивном костюме с отделкой вдоль рукавов и брюк, в полный рост",
+      "source": "https://www.armani.com/en/ea7/italian-spirit-cotton-blend-tracksuit-cod-7M001867-AF12660-UB102/",
+      "asset": "7M001867_AF12660_UB102_D_FW2026",
+      "download": "https://assets.armani.com/image/upload/f_auto,q_auto:best,ar_4:5,w_1536,c_fill/7M001867_AF12660_UB102_D_FW2026.jpg",
+      "sha256": "7b3a2a9f565081461f1c05f5d4588826f365b2387f3e8cbef8f29df3d523f78c",
+      "processing": "Original CDN bytes. No local editing, no AI, no retouching."
+    },
+    {
+      "id": "brown-jersey",
+      "title": "Тёплый двухцветный комплект",
+      "image": "/images/editorials/look-3.jpg",
+      "alt": "Мужчина в коричневом спортивном костюме с контрастным верхом, в полный рост",
+      "source": "https://www.armani.com/en/ea7/tracksuit-regular-fit-in-cotton-jersey-with-ribbed-details-cod-7M002405-AF10377-U6027/",
+      "asset": "7M002405_AF10377_U6027_D_FW2026",
+      "download": "https://assets.armani.com/image/upload/f_auto,q_auto:best,ar_4:5,w_1536,c_fill/7M002405_AF10377_U6027_D_FW2026.jpg",
+      "sha256": "2e9c8fa893181596c9808fd0b1813692c0b9452c23d6fc1773ff2b72a147b228",
+      "processing": "Original CDN bytes. No local editing, no AI, no retouching."
+    },
+    {
+      "id": "grey-jersey",
+      "title": "Серый и чёрный",
+      "image": "/images/editorials/look-4.jpg",
+      "alt": "Мужчина в серо-чёрном спортивном костюме с капюшоном, в полный рост",
+      "source": "https://www.armani.com/en/ea7/tracksuit-regular-fit-cotton-jersey-with-hood-and-zip-cod-7M002411-AF10377-M8014/",
+      "asset": "7M002411_AF10377_M8014_D_FW2026",
+      "download": "https://assets.armani.com/image/upload/f_auto,q_auto:best,ar_4:5,w_1536,c_fill/7M002411_AF10377_M8014_D_FW2026.jpg",
+      "sha256": "6e74a8ab95e0032545ae4aad9108701f28ff7077cd637e5d78341b44e86e83eb",
+      "processing": "Original CDN bytes. No local editing, no AI, no retouching."
+    }
+  ],
+  "logos": [
+    {
+      "name": "Emporio Armani",
+      "image": "/images/brands/emporio-armani.png",
+      "source": "https://cdn.worldvectorlogo.com/logos/emporio-armani.svg"
+    },
+    {
+      "name": "Paul & Shark",
+      "image": "/images/brands/paul.png",
+      "source": "https://cdn.worldvectorlogo.com/logos/paul-shark.svg"
+    },
+    {
+      "name": "BOSS",
+      "image": "/images/brands/boss.png",
+      "source": "https://cdn.worldvectorlogo.com/logos/boss-hugo-boss.svg"
+    },
+    {
+      "name": "Calvin Klein",
+      "image": "/images/brands/ck.png",
+      "source": "https://cdn.worldvectorlogo.com/logos/calvin-klein-1.svg"
+    },
+    {
+      "name": "Hermès",
+      "image": "/images/brands/hermes.png",
+      "source": "https://cdn.worldvectorlogo.com/logos/hermes.svg"
+    },
+    {
+      "name": "Lacoste",
+      "image": "/images/brands/lacoste.png",
+      "source": "https://cdn.worldvectorlogo.com/logos/lacoste.svg"
+    }
+  ],
+  "productPhotos": {
+    "processing": "Existing original product photographs; deterministic alpha masking, crop, scale and vertical EA7 composition only. No AI.",
+    "script": "scripts/prepare-product-photos.py"
+  }
+}

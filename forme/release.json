@@ -1,7 +1,8 @@
 {
   "name": "FORME",
-  "sourceCommit": "d17f4d5e67c26fff95ff1520dd93d4c59a7200fc",
-  "catalogProducts": 47,
+  "sourceCommit": "b348ea1fb516be3d016954fee949ec6c56c4d736",
+  "catalogProducts": 45,
   "looks": 12,
+  "editorials": 4,
   "base": "/forme/"
 }

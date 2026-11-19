@@ -124,44 +124,6 @@ export const verifiedProducts = [
     "neck": "Воротник-стойка"
   },
   {
-    "id": "tf-classic-wallet",
-    "name": "Кошелёк Tom Ford Grain Leather Classic Bifold",
-    "brand": "Tom Ford",
-    "model": "0200640746010",
-    "category": "Кошельки",
-    "color": "Чёрный",
-    "hex": "#252525",
-    "composition": "70% телячья кожа, 30% овечья кожа; фурнитура — латунь с золотым покрытием",
-    "material": "Зернистая кожа",
-    "country": "Италия",
-    "price": 19900,
-    "sizes": [
-      "Единый"
-    ],
-    "sourceUrl": "https://www.tomfordfashion.com/en-us/grain-leather-classic-bifold-wallet%C2%A0/0200640746010.html",
-    "description": "Складной мужской кошелёк из зернистой кожи с гладкими внутренними отделениями. Размеры: 11,4 × 9,4 × 1,5 см.",
-    "neck": "Не применяется"
-  },
-  {
-    "id": "tf-small-wallet",
-    "name": "Кошелёк Tom Ford Small Grain Leather Bifold",
-    "brand": "Tom Ford",
-    "model": "YM228-LCL081G-BCY8",
-    "category": "Кошельки",
-    "color": "Чёрный",
-    "hex": "#252525",
-    "composition": "Внешний материал: 100% кожа",
-    "material": "Мелкозернистая кожа",
-    "country": "Италия",
-    "price": 19900,
-    "sizes": [
-      "Единый"
-    ],
-    "sourceUrl": "https://www.tomfordfashion.com/en-us/small-grain-leather-bifold-wallet/YM228-LCL081G-BCY8.html",
-    "description": "Мужской кошелёк T Line: восемь отделений для карт и отделение для купюр, золотистая фурнитура TF. Размеры: 11,4 × 9,4 × 1,5 см.",
-    "neck": "Не применяется"
-  },
-  {
     "id": "ea7-tracksuit",
     "name": "Комплект EA7 Emporio Armani Tracksuit Black",
     "brand": "Emporio Armani",
