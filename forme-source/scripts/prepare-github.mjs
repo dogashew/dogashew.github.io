@@ -29,6 +29,16 @@ for (const item of ['src', 'scripts', 'package.json', 'package-lock.json', 'inde
   fs.cpSync(path.join(project, item), path.join(sourceDestination, item), {recursive: true});
 }
 for (const item of ['images', 'fonts']) fs.cpSync(path.join(project, 'dist', item), path.join(sourceDestination, 'public', item), {recursive:true});
+const photoInputs=path.join(project,'references/catalog-photo-inputs.json');
+if(fs.existsSync(photoInputs)){
+  fs.mkdirSync(path.join(sourceDestination,'references'),{recursive:true});
+  fs.copyFileSync(photoInputs,path.join(sourceDestination,'references/catalog-photo-inputs.json'));
+  for(const item of JSON.parse(fs.readFileSync(photoInputs,'utf8'))){
+    const sourcePhoto=path.resolve(project,item.path),targetPhoto=path.resolve(sourceDestination,item.path);
+    assert(sourcePhoto.startsWith(path.join(project,'public')+path.sep)&&targetPhoto.startsWith(path.join(sourceDestination,'public')+path.sep));
+    fs.mkdirSync(path.dirname(targetPhoto),{recursive:true});fs.copyFileSync(sourcePhoto,targetPhoto);
+  }
+}
 fs.writeFileSync(path.join(sourceDestination, 'README.md'), '# FORME\n\nОтдельный магазин по адресу `/forme/`. Основной сайт Иман сохраняется.\n\nПроверка и сборка: `npm ci`, `npm run check`, `npm run build`. Для публикации под `/forme/` пути к assets, images и fonts должны иметь префикс `/forme/`. Готовая версия находится в соседней папке `forme/`.\n');
 const workflowPath = path.join(repository, '.github/workflows/publish.yml');
 let workflow = fs.readFileSync(workflowPath, 'utf8');

@@ -21,8 +21,8 @@ const lookItems=looks.map((l,i)=>'outfit-'+i);
 data.push(...looks.map((l,i)=>({id:lookItems[i],name:'Образ '+String(i+1).padStart(2,'0')+' · '+l[0],category:'Комплекты',color:l[1],hex:l[2],parts:outfitParts[i],palette:outfitPalettes[i],price:[34900,36900,29900,27900,64900,42900,38900,54900,32900,49900,37900,32900][i],reference:source})));
 const lookCount=looks.length;
 const lookNumber=n=>String(n+1).padStart(2,'0');
-const cleanedPhotos=new Set(['tf-cotton-hoodie','tf-cashmere-hoodie','tf-merino-hoodie','tf-cashmere-merino-hoodie','ps-13314033','ea7-tracksuit']);
-const photo=p=>'/images/'+p.id+(cleanedPhotos.has(p.id)?'-clean.webp':'-product.webp');
+const cleanedPhotos=new Set(['tf-cashmere-hoodie','tf-merino-hoodie','tf-cashmere-merino-hoodie']);
+const photo=p=>p.catalogPhoto||'/images/'+p.id+(cleanedPhotos.has(p.id)?'-clean.webp':'-product.webp');
 function read(k){try{let x=JSON.parse(localStorage.getItem(k));const aliases=JSON.parse(new TextDecoder().decode(Uint8Array.from('7b226361702d6c6f726f2d62726f776e223a226361702d776f6f6c2d62726f776e222c226361702d6c6f726f223a226361702d776f6f6c222c226361702d636b2d7768697465223a226361702d656d62726f6964657265642d7768697465222c226361702d636b223a226361702d656d62726f696465726564222c226361702d736861726b2d73616e64223a226361702d656d626c656d2d73616e64222c226361702d736861726b223a226361702d656d626c656d222c22736861726b2d736574223a2273706f72742d736574227d'.match(/../g),h=>parseInt(h,16))));return Array.isArray(x)?x.map(v=>typeof v==='string'?(aliases[v]||v):{...v,id:aliases[v.id]||v.id}):[]}catch{return[]}}
 
 const content={
@@ -58,7 +58,8 @@ data.push(...[
 ].map(([id,name,category,color,hex,price,post])=>({id,name,category,color,hex,price,post})));
 data.push(...verifiedProducts);
 const catalogData=data.filter(p=>Boolean(p.post||p.sourceUrl)&&!['pocket-parka','hoodie'].includes(p.id));
-const priority=p=>p.id==='bordered-cardigan'?-2:p.id==='tf-cashmere-cardigan'?-1:0;
+catalogData.forEach(p=>p.catalogPhoto='/images/catalog/'+p.id+'.webp');
+const priority=p=>p.id==='bordered-cardigan'?-2:p.id==='boss-mardon-cardigan'?-1:0;
 catalogData.sort((a,b)=>groups.indexOf(a.category)-groups.indexOf(b.category)||priority(a)-priority(b));
 data.sort((a,b)=>groups.indexOf(a.category)-groups.indexOf(b.category));
 data.forEach(p=>{p.sizes=p.sizes||(p.category==='Кепки'||p.category==='Кошельки'?['Единый']:['S','M','L','XL','XXL']);p.images=[photo(p)];p.details=productDetails(p);});

@@ -114,3 +114,12 @@ footer h2{font-size:22px;margin-bottom:24px}footer .footer-links h3{font-size:12
 .current-looks-grid .text-link{font-size:11px;text-decoration:none;min-height:44px}
 @media(min-width:651px){.top-brands,.current-looks{padding-block:56px}.current-looks-grid{grid-template-columns:repeat(2,minmax(0,1fr));grid-auto-flow:row;overflow:visible;gap:28px}.brand-mark{height:72px}.brand-mark img{max-width:130px;height:48px}}
 @media(min-width:1100px){.current-looks-grid{grid-template-columns:repeat(4,minmax(0,1fr))}}
+
+/* Small alignment and catalog controls. */
+.header>nav:first-child{transform:translateX(-4px)}
+.wardrobe>.section-heading h1{font-size:clamp(18px,4.5vw,24px);line-height:1.3}
+.card-photo{background:#f4f3ef}
+.card-photo img{padding:0;mix-blend-mode:normal}
+.card .quick-add{width:44px;height:44px;min-width:44px;min-height:44px;background:#111;color:#fff;border:0;border-radius:50%}
+.card .quick-add:hover{background:#303030}
+.card .quick-add svg{stroke:#fff}
