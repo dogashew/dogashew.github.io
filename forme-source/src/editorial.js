@@ -58,6 +58,36 @@ export const currentEditorials = [
     "models": "Thatcher Thornton and Nick Offord",
     "sha256": "3dc94e41262a8b0d7a927397364d190835a0167fa3cff1c4db8451c104d5ff11",
     "processing": "Original downloaded JPEG bytes. No local edits, no AI, no crop or grading."
+  },
+  {
+    "id": "location-5",
+    "title": "Спокойные фактуры",
+    "alt": "Две мужские модели в куртках на фоне пустыни",
+    "image": "/images/editorials/location-5.jpg",
+    "width": 800,
+    "height": 640,
+    "source": "https://www.thefashionisto.com/massimo-dutti-2024-down-to-earth/",
+    "download": "https://www.thefashionisto.com/wp-content/uploads/2024/12/Massimo-Dutti-2024-Down-to-Earth-003.jpg",
+    "photographer": "Mark Kean",
+    "campaign": "Massimo Dutti — Down to Earth, December 2024",
+    "models": "Thatcher Thornton and Nick Offord",
+    "sha256": "102a5695fc05377d29daf0b5bcf1ecb575501adb51ba7e0c9dc3dc1bb5637661",
+    "processing": "Original downloaded JPEG bytes. No local edits, no AI, no crop or grading."
+  },
+  {
+    "id": "location-6",
+    "title": "Свободный силуэт",
+    "alt": "Мужская модель в куртке и тёмных брюках на фоне песчаного пейзажа",
+    "image": "/images/editorials/location-6.jpg",
+    "width": 800,
+    "height": 640,
+    "source": "https://www.thefashionisto.com/massimo-dutti-2024-down-to-earth/",
+    "download": "https://www.thefashionisto.com/wp-content/uploads/2024/12/Massimo-Dutti-2024-Down-to-Earth-012.jpg",
+    "photographer": "Mark Kean",
+    "campaign": "Massimo Dutti — Down to Earth, December 2024",
+    "models": "Thatcher Thornton and Nick Offord",
+    "sha256": "6d475dd2245841acff16c97a24616044e1780d95505662c0189272bbf1de4635",
+    "processing": "Original downloaded JPEG bytes. No local edits, no AI, no crop or grading."
   }
 ];
 

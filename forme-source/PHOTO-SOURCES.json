@@ -59,6 +59,36 @@
       "models": "Thatcher Thornton and Nick Offord",
       "sha256": "3dc94e41262a8b0d7a927397364d190835a0167fa3cff1c4db8451c104d5ff11",
       "processing": "Original downloaded JPEG bytes. No local edits, no AI, no crop or grading."
+    },
+    {
+      "id": "location-5",
+      "title": "Спокойные фактуры",
+      "alt": "Две мужские модели в куртках на фоне пустыни",
+      "image": "/images/editorials/location-5.jpg",
+      "width": 800,
+      "height": 640,
+      "source": "https://www.thefashionisto.com/massimo-dutti-2024-down-to-earth/",
+      "download": "https://www.thefashionisto.com/wp-content/uploads/2024/12/Massimo-Dutti-2024-Down-to-Earth-003.jpg",
+      "photographer": "Mark Kean",
+      "campaign": "Massimo Dutti — Down to Earth, December 2024",
+      "models": "Thatcher Thornton and Nick Offord",
+      "sha256": "102a5695fc05377d29daf0b5bcf1ecb575501adb51ba7e0c9dc3dc1bb5637661",
+      "processing": "Original downloaded JPEG bytes. No local edits, no AI, no crop or grading."
+    },
+    {
+      "id": "location-6",
+      "title": "Свободный силуэт",
+      "alt": "Мужская модель в куртке и тёмных брюках на фоне песчаного пейзажа",
+      "image": "/images/editorials/location-6.jpg",
+      "width": 800,
+      "height": 640,
+      "source": "https://www.thefashionisto.com/massimo-dutti-2024-down-to-earth/",
+      "download": "https://www.thefashionisto.com/wp-content/uploads/2024/12/Massimo-Dutti-2024-Down-to-Earth-012.jpg",
+      "photographer": "Mark Kean",
+      "campaign": "Massimo Dutti — Down to Earth, December 2024",
+      "models": "Thatcher Thornton and Nick Offord",
+      "sha256": "6d475dd2245841acff16c97a24616044e1780d95505662c0189272bbf1de4635",
+      "processing": "Original downloaded JPEG bytes. No local edits, no AI, no crop or grading."
     }
   ],
   "logos": [
@@ -277,6 +307,161 @@
       "localPath": "references/replacements/237951.jpg",
       "priceNote": "Preserves prior FORME display price; not a quoted retailer price",
       "verification": "Retailer product description and original front packshot inspected. No AI editing."
+    }
+  ],
+  "triumphProducts": [
+    {
+      "id": "triumph-35",
+      "post": "https://www.instagram.com/triumph_mz/p/DetSwB4iK6c/",
+      "original": "references/triumph/35.jpg",
+      "mask": "references/triumph/35-mask.png",
+      "image": "/images/catalog/triumph-35.webp",
+      "sha256": "3a37d622aa1bdaf8f4e325865d3b76d1c403ae2919706804c556cb9cb5b36688",
+      "processing": "Original Instagram photo pixels isolated using reviewed Adobe clothing selection masks. No generative image editing. White site background, transparent WebP, 720 by 900."
+    },
+    {
+      "id": "triumph-38",
+      "post": "https://www.instagram.com/triumph_chr/p/DezFycDjVn3/",
+      "original": "references/triumph/38.jpg",
+      "mask": "references/triumph/38-mask.png",
+      "image": "/images/catalog/triumph-38.webp",
+      "sha256": "e4b9e282af6d0d746bb09a694b7584b49301a138f77d969cb8f0ff3c766ffe88",
+      "processing": "Original Instagram photo pixels isolated using reviewed Adobe clothing selection masks. No generative image editing. White site background, transparent WebP, 720 by 900."
+    },
+    {
+      "id": "triumph-33",
+      "post": "https://www.instagram.com/triumph_mz/p/DezFkH3iL8t/",
+      "original": "references/triumph/33.jpg",
+      "mask": "references/triumph/33-mask.png",
+      "image": "/images/catalog/triumph-33.webp",
+      "sha256": "6359b3f6f848cee4c3a5910afa4cc7eb648b2a26844ac48839423002632f9416",
+      "processing": "Original Instagram photo pixels isolated using reviewed Adobe clothing selection masks. No generative image editing. White site background, transparent WebP, 720 by 900."
+    },
+    {
+      "id": "triumph-5",
+      "post": "https://www.instagram.com/triumph_mz/p/Dfj109UCK4F/",
+      "original": "references/triumph/5.jpg",
+      "mask": "references/triumph/5-mask.png",
+      "image": "/images/catalog/triumph-5.webp",
+      "sha256": "fd6901f2223cd38a2166c221ce82da75397dd58ded8cfb2c4ffa4a8845ee2037",
+      "processing": "Original Instagram photo pixels isolated using reviewed Adobe clothing selection masks. No generative image editing. White site background, transparent WebP, 720 by 900."
+    },
+    {
+      "id": "triumph-4",
+      "post": "https://www.instagram.com/triumph_mz/p/DfkPDVViDUv/",
+      "original": "references/triumph/4.jpg",
+      "mask": "references/triumph/4-mask.png",
+      "image": "/images/catalog/triumph-4.webp",
+      "sha256": "d793eeef7b5344a8a00359a4776e93950d0ce20b52ff63ab2ac99acf2fd0caa6",
+      "processing": "Original Instagram photo pixels isolated using reviewed Adobe clothing selection masks. No generative image editing. White site background, transparent WebP, 720 by 900."
+    },
+    {
+      "id": "triumph-21",
+      "post": "https://www.instagram.com/triumph_mz/p/DfLJ2SEiLm9/",
+      "original": "references/triumph/21.jpg",
+      "mask": "references/triumph/21-mask.png",
+      "image": "/images/catalog/triumph-21.webp",
+      "sha256": "68e7380fdf0573d8d9dc68f9b3eeef0b73476bc6b8d3a05d7de422a95e9a3d18",
+      "processing": "Original Instagram photo pixels isolated using reviewed Adobe clothing selection masks. No generative image editing. White site background, transparent WebP, 720 by 900."
+    },
+    {
+      "id": "triumph-20",
+      "post": "https://www.instagram.com/triumph_mz/p/DfLKJJboQSL/",
+      "original": "references/triumph/20.jpg",
+      "mask": "references/triumph/20-mask.png",
+      "image": "/images/catalog/triumph-20.webp",
+      "sha256": "263d8c378bfafa160f98bda9679f1ef510b3ceb05bef56fb999736f19b357448",
+      "processing": "Original Instagram photo pixels isolated using reviewed Adobe clothing selection masks. No generative image editing. White site background, transparent WebP, 720 by 900."
+    },
+    {
+      "id": "triumph-29",
+      "post": "https://www.instagram.com/triumph_mz/p/De3-zJqCOKi/",
+      "original": "references/triumph/29.jpg",
+      "mask": "references/triumph/29-mask.png",
+      "image": "/images/catalog/triumph-29.webp",
+      "sha256": "62c83029fc4d9d59a0779c8b0da4bf31e6c47e68cd450aab50361231e22e22a9",
+      "processing": "Original Instagram photo pixels isolated using reviewed Adobe clothing selection masks. No generative image editing. White site background, transparent WebP, 720 by 900."
+    },
+    {
+      "id": "triumph-30",
+      "post": "https://www.instagram.com/triumph_mz/p/De39eChiGj1/",
+      "original": "references/triumph/30.jpg",
+      "mask": "references/triumph/30-mask.png",
+      "image": "/images/catalog/triumph-30.webp",
+      "sha256": "a79065a335224a4296ea7b023141a90dc2eacec15bbd818448f8e2ccd595acd9",
+      "processing": "Original Instagram photo pixels isolated using reviewed Adobe clothing selection masks. No generative image editing. White site background, transparent WebP, 720 by 900."
+    },
+    {
+      "id": "triumph-37",
+      "post": "https://www.instagram.com/triumph_chr/p/De38gVHDfs8/",
+      "original": "references/triumph/37.jpg",
+      "mask": "references/triumph/37-mask.png",
+      "image": "/images/catalog/triumph-37.webp",
+      "sha256": "4c545c6bb99af6076eae8f88d3faac5b089de8841ac3386f897ebc141a818d83",
+      "processing": "Original Instagram photo pixels isolated using reviewed Adobe clothing selection masks. No generative image editing. White site background, transparent WebP, 720 by 900."
+    },
+    {
+      "id": "triumph-54",
+      "post": "https://www.instagram.com/triumph_mz/p/DebMSqFiEpx/",
+      "original": "references/triumph/54.jpg",
+      "mask": "references/triumph/54-mask.png",
+      "image": "/images/catalog/triumph-54.webp",
+      "sha256": "c09609b6541152d270fb1378f65c456d5a23f73a896f9b86778fa257ee4d18d4",
+      "processing": "Original Instagram photo pixels isolated using reviewed Adobe clothing selection masks. No generative image editing. White site background, transparent WebP, 720 by 900."
+    },
+    {
+      "id": "triumph-41",
+      "post": "https://www.instagram.com/triumph_mz/p/Deo_m2tCNuz/",
+      "original": "references/triumph/41.jpg",
+      "mask": "references/triumph/41-mask.png",
+      "image": "/images/catalog/triumph-41.webp",
+      "sha256": "aa36fe7f14f5a909fd33cd84960b32f2aa0e17d569d44b650f3de3b425b04da9",
+      "processing": "Original Instagram photo pixels isolated using reviewed Adobe clothing selection masks. No generative image editing. White site background, transparent WebP, 720 by 900."
+    },
+    {
+      "id": "triumph-43",
+      "post": "https://www.instagram.com/triumph_mz/p/DemW7M6IpNX/",
+      "original": "references/triumph/43.jpg",
+      "mask": "references/triumph/43-mask.png",
+      "image": "/images/catalog/triumph-43.webp",
+      "sha256": "f6774e02bf4fb1d20f4f533430db969508ea194ab7d25c842a05622607773c9a",
+      "processing": "Original Instagram photo pixels isolated using reviewed Adobe clothing selection masks. No generative image editing. White site background, transparent WebP, 720 by 900."
+    },
+    {
+      "id": "triumph-44",
+      "post": "https://www.instagram.com/triumph_mz/p/DemWydaIfI_/",
+      "original": "references/triumph/44.jpg",
+      "mask": "references/triumph/44-mask.png",
+      "image": "/images/catalog/triumph-44.webp",
+      "sha256": "93622731ff1d2edf3e53fd63695869c98fb79df7b5b09f64b9c7b30d8981cce1",
+      "processing": "Original Instagram photo pixels isolated using reviewed Adobe clothing selection masks. No generative image editing. White site background, transparent WebP, 720 by 900."
+    },
+    {
+      "id": "triumph-49",
+      "post": "https://www.instagram.com/triumph_mz/p/DecZOcPiHE3/",
+      "original": "references/triumph/49.jpg",
+      "mask": "references/triumph/49-mask.png",
+      "image": "/images/catalog/triumph-49.webp",
+      "sha256": "d741e598d342fefecc99a6efef8097cdb15eb4e890580e68843ef140e4dd8101",
+      "processing": "Original Instagram photo pixels isolated using reviewed Adobe clothing selection masks. No generative image editing. White site background, transparent WebP, 720 by 900."
+    },
+    {
+      "id": "triumph-50",
+      "post": "https://www.instagram.com/triumph_mz/p/DecY3JCiKr0/",
+      "original": "references/triumph/50.jpg",
+      "mask": "references/triumph/50-mask.png",
+      "image": "/images/catalog/triumph-50.webp",
+      "sha256": "3d52688085ece258f77c47f4e2dc0bf6526d232a3d5ea0ac4e9d1f8b3e6b458c",
+      "processing": "Original Instagram photo pixels isolated using reviewed Adobe clothing selection masks. No generative image editing. White site background, transparent WebP, 720 by 900."
+    },
+    {
+      "id": "triumph-0",
+      "post": "https://www.instagram.com/triumph_mz/p/Df7SGv_CATN/",
+      "original": "references/triumph/0.jpg",
+      "mask": "references/triumph/0-mask.png",
+      "image": "/images/catalog/triumph-0.webp",
+      "sha256": "9ddc3c4295a8e06eff184cc9e14217ce62606c4418d28a2ea0726f2020fbfbf5",
+      "processing": "Original Instagram photo pixels isolated using reviewed Adobe clothing selection masks. No generative image editing. White site background, transparent WebP, 720 by 900."
     }
   ]
 }

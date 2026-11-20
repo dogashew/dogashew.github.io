@@ -1,4 +1,4 @@
-import {verifiedProducts} from './verifiedProducts.js';
+import {triumphProducts} from './triumphProducts.js';
 import {productDetails} from './productDetails.js';
 const source='https://www.instagram.com/neqaxo_grozny_/';
 const data=[['zip-jacket','Трикотажный кардиган на молнии','Куртки','Коричневый','#675349','ed821c2b177a79ab','Dfr-y08RVCM'],['longsleeve','Лонгслив с круглым принтом','Лонгсливы','Молочный','#e8e5dc','221149a1485a9c77','DfnNu19x_0A'],['sweatshirt','Свитшот с круглым вырезом','Свитшоты','Серо-синий','#6f7c89','9e4f26ef3c7e2683','DfmX8KYx2vM'],['bomber','Бомбер с накладным карманом','Куртки','Серый','#929995','fefb6622a25b8a47','Dfh9qP9xAHY'],['hoodie','Худи с графическим принтом','Худи','Чёрный','#28292b','b2885f8c40d9f17d','DfcqkV-Rnxn'],['zip-hoodie','Худи на молнии','Худи','Тёмно-синий','#262b33','4ce4fcf0d5b12a52','DfXip6Yxcz6']].map(([id,name,category,color,hex,photo,post])=>({id,name,category,color,hex,photo,post}));
@@ -56,9 +56,9 @@ data.push(...[
  ['deep-denim','Джинсы из тёмного денима','Джинсы','Индиго','#2c4051',9900,'DKcCvidIBM3'],
  ['faded-denim','Джинсы с контрастной строчкой','Джинсы','Голубой','#718592',9900,'DKZjCNZoa67']
 ].map(([id,name,category,color,hex,price,post])=>({id,name,category,color,hex,price,post})));
-data.push(...verifiedProducts);
-const catalogData=data.filter(p=>Boolean(p.post||p.sourceUrl)&&!['pocket-parka','hoodie'].includes(p.id));
-catalogData.forEach(p=>p.catalogPhoto='/images/catalog/'+p.id+'.webp');
+data.push(...triumphProducts);
+const catalogData=data.filter(p=>Boolean(p.post||p.sourceUrl||p.category==='Кепки')&&!['pocket-parka','hoodie'].includes(p.id));
+catalogData.forEach(p=>{if(p.category!=='Кепки')p.catalogPhoto='/images/catalog/'+p.id+'.webp'});
 const priority=p=>p.id==='bordered-cardigan'?-2:p.id==='boss-mardon-cardigan'?-1:0;
 catalogData.sort((a,b)=>groups.indexOf(a.category)-groups.indexOf(b.category)||priority(a)-priority(b));
 data.sort((a,b)=>groups.indexOf(a.category)-groups.indexOf(b.category));

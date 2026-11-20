@@ -125,3 +125,13 @@ footer h2{font-size:22px;margin-bottom:24px}footer .footer-links h3{font-size:12
 .card .quick-add svg{stroke:#fff}
 
 .gallery-slide,.look-product>img,.cart-row>img{background:#fff}
+
+/* Continuous editorial strip and laptop catalog. */
+.current-looks{padding-inline:0}
+.current-looks>.section-heading{padding-inline:var(--gutter)}
+.current-looks-grid{gap:0;padding:0;grid-auto-columns:78%}
+.current-looks-grid h3{padding-inline:14px;font-size:12px}
+.current-look-photo img{object-fit:cover}
+.current-looks-grid>article:nth-child(5) img{object-position:27% center}
+@media(min-width:651px){.current-looks-grid{grid-template-columns:repeat(6,minmax(0,1fr));gap:0}.current-looks-grid h3{font-size:11px;padding-inline:10px}.card-title{overflow-wrap:anywhere}.cart-sheet .cart-row>img{width:96px;height:120px}.cart-sheet .cart-row{gap:20px}.cart-sheet .cart-row a{line-height:1.5;overflow-wrap:anywhere}.modal.cart-sheet{width:min(520px,46vw);padding:64px 28px 28px}.cart-sheet .cart-bottom{padding-bottom:env(safe-area-inset-bottom)}}
+@media(min-width:1024px){.home-catalog,.catalog,.product{max-width:1600px;margin-inline:auto}.grid:not(.horizontal){grid-template-columns:repeat(4,minmax(0,1fr));gap:36px 24px}.grid>.card:only-child{grid-column:auto}.product-layout{grid-template-columns:minmax(0,1fr) minmax(340px,.85fr);gap:64px}.product-info{max-width:560px}.gallery-slide{max-height:calc(100dvh - 140px)}}
