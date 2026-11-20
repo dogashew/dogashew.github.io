@@ -43,6 +43,12 @@ for (const item of JSON.parse(fs.readFileSync(path.join(project,'references/triu
   for(const suffix of ['.jpg','-mask.png']){const relative='references/triumph/'+item.index+suffix;fs.mkdirSync(path.dirname(path.join(sourceDestination,relative)),{recursive:true});fs.copyFileSync(path.join(project,relative),path.join(sourceDestination,relative));}
 }
 fs.copyFileSync(path.join(project,'references/triumph-inputs.json'),path.join(sourceDestination,'references/triumph-inputs.json'));
+const packshotFolder='references/packshots';
+fs.mkdirSync(path.join(sourceDestination,packshotFolder),{recursive:true});
+for(const filename of ['sources.json',...JSON.parse(fs.readFileSync(path.join(project,packshotFolder,'sources.json'),'utf8')).map(p=>p.original)]){
+  assert(!filename.includes('/')&&!filename.includes('\\'));
+  fs.copyFileSync(path.join(project,packshotFolder,filename),path.join(sourceDestination,packshotFolder,filename));
+}
 fs.writeFileSync(path.join(sourceDestination, 'README.md'), '# FORME\n\nОтдельный магазин по адресу `/forme/`. Основной сайт Иман сохраняется.\n\nПроверка и сборка: `npm ci`, `npm run check`, `npm run build`. Для публикации под `/forme/` пути к assets, images и fonts должны иметь префикс `/forme/`. Готовая версия находится в соседней папке `forme/`.\n');
 const workflowPath = path.join(repository, '.github/workflows/publish.yml');
 let workflow = fs.readFileSync(workflowPath, 'utf8');

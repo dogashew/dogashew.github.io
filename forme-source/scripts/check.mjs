@@ -1,10 +1,10 @@
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import {data,catalogData,looks,lookItems,photo,read} from '../src/data.js';
-import {triumphProducts} from '../src/triumphProducts.js';
+import {packshotProducts} from '../src/packshotProducts.js';
 import {currentEditorials} from '../src/editorial.js';
 import {filterProducts} from '../src/catalog.js';
-assert.equal(catalogData.length,51);assert.equal(triumphProducts.length,17);assert.equal(currentEditorials.length,6);assert.equal(catalogData.filter(p=>p.category==='Кепки').length,6);assert(triumphProducts.every(p=>/instagram.com\/triumph_(mz|chr)\/p\//.test(p.sourceUrl)));assert(!data.some(p=>p.id.startsWith('tf-')||p.id.startsWith('boss-')));assert.equal(catalogData.find(p=>p.category==='Куртки').id,'bordered-cardigan');assert(!catalogData.some(p=>['hoodie','pocket-parka'].includes(p.id)));assert(catalogData.every(p=>p.post||p.sourceUrl||p.category==='Кепки'));assert(!catalogData.some(p=>p.id==='longsleeve-ivory'));
+assert.equal(catalogData.length,51);assert.equal(packshotProducts.length,17);assert.equal(currentEditorials.length,6);assert.equal(catalogData.filter(p=>p.category==='Кепки').length,6);assert(packshotProducts.every(p=>p.sourceUrl.startsWith('https://') && p.model && p.catalogPhoto.includes('/packshot-')));assert(!catalogData.some(p=>p.id.startsWith('triumph-')));assert(!data.some(p=>p.id.startsWith('tf-')||p.id.startsWith('boss-')));assert.equal(catalogData.find(p=>p.category==='Куртки').id,'bordered-cardigan');assert(!catalogData.some(p=>['hoodie','pocket-parka'].includes(p.id)));assert(catalogData.every(p=>p.post||p.sourceUrl||p.category==='Кепки'));assert(!catalogData.some(p=>p.id==='longsleeve-ivory'));
 assert.equal(looks.length,12);for(let i=0;i<looks.length;i++){const path=`public/images/model-cutout-${i}.webp`;assert(fs.existsSync(path));assert(fs.statSync(path).size<256000);}
 const plain={colors:[],size:'',min:'',max:'',sort:'default'};
 assert.equal(filterProducts(data,plain).length,data.length);

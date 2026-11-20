@@ -463,5 +463,467 @@
       "sha256": "9ddc3c4295a8e06eff184cc9e14217ce62606c4418d28a2ea0726f2020fbfbf5",
       "processing": "Original Instagram photo pixels isolated using reviewed Adobe clothing selection masks. No generative image editing. White site background, transparent WebP, 720 by 900."
     }
-  ]
+  ],
+  "packshotReplacements": [
+    {
+      "id": "packshot-35",
+      "source": "https://www.lyst.com/clothing/loro-piana-treccia-cashmere-half-zip-sweater/",
+      "image": "https://cdna.lystit.com/1040/1300/n/photos/mytheresa/bbb74412/loro-piana-blue-Treccia-Cashmere-Half-zip-Sweater.jpeg",
+      "title": "Loro Piana Treccia Cashmere Half-Zip Sweater",
+      "original": "35-original.jpg",
+      "name": "Джемпер Loro Piana Treccia",
+      "category": "Свитшоты",
+      "color": "Серый",
+      "hex": "#858c91",
+      "price": 9900,
+      "description": "Фактурная вязка, воротник-стойка и короткая молния.",
+      "catalogPhoto": "/images/catalog/packshot-35.webp",
+      "replacementFor": "triumph-35",
+      "match": "approved similar replacement; not claimed as exact Instagram item",
+      "sha256Original": "86e797d4c42d337fc43ab5242e0398b3e26ccdcdd420187215e31a46e65b87dc",
+      "sha256Published": "a252a06e489b1a16ffc46f5e200a27511563260946ffb893b205155d1523f655",
+      "originalDimensions": [
+        1040,
+        1300
+      ],
+      "publishedDimensions": [
+        720,
+        900
+      ],
+      "processing": "Downloaded product-only photograph. Plain background removed by pixel comparison; proportional resize and padding only. No AI generation or inpainting."
+    },
+    {
+      "id": "packshot-38",
+      "source": "https://www.lyst.com/clothing/polo-ralph-lauren-cotton-t-shirt-778/",
+      "image": "https://cdna.lystit.com/1040/1300/n/photos/nugnes1920/a3b5ecf1/polo-ralph-lauren-Brown-Cotton-T-Shirt.jpeg",
+      "title": "Polo Ralph Lauren Brown Cotton T-Shirt",
+      "original": "38-original.jpg",
+      "name": "Лонгслив Polo Ralph Lauren",
+      "category": "Лонгсливы",
+      "color": "Коричневый",
+      "hex": "#684338",
+      "price": 6900,
+      "description": "Круглая горловина, длинные рукава и небольшая вышивка на груди.",
+      "catalogPhoto": "/images/catalog/packshot-38.webp",
+      "replacementFor": "triumph-38",
+      "match": "approved similar replacement; not claimed as exact Instagram item",
+      "sha256Original": "964f474bfa0f748e9b01c40ef9a183b8f9695370a18f6bf8cb62ca27f3c1228d",
+      "sha256Published": "c462907fb02badbcbfd37045e87dfb0639004c2476871addd417e50e635164bd",
+      "originalDimensions": [
+        1040,
+        1300
+      ],
+      "publishedDimensions": [
+        720,
+        900
+      ],
+      "processing": "Downloaded product-only photograph. Plain background removed by pixel comparison; proportional resize and padding only. No AI generation or inpainting."
+    },
+    {
+      "id": "packshot-33",
+      "source": "https://stompingground.ca/products/sunspel-longsleeve-classic-tee-navy",
+      "image": "https://stompingground.ca/cdn/shop/files/sunspel-long-sleeve-classic-t-shirt-navy.png?v=1752505124&width=1920",
+      "title": "Sunspel Long Sleeve Classic T-Shirt — Navy",
+      "original": "33-original.jpg",
+      "name": "Лонгслив Sunspel Classic",
+      "category": "Лонгсливы",
+      "color": "Тёмно-синий",
+      "hex": "#1f2634",
+      "price": 6900,
+      "description": "Лонгслив Classic с круглой горловиной и прямым низом. Тёмно-синий цвет.",
+      "catalogPhoto": "/images/catalog/packshot-33.webp",
+      "replacementFor": "triumph-33",
+      "match": "approved similar replacement; not claimed as exact Instagram item",
+      "sha256Original": "4656a19880012e16b76fd4c6ac1323700f6776b5e1fe5a3e4f2c50ffdfd7a77a",
+      "sha256Published": "3a105e9e63f4ac03f5f2208c8bd786f33141231fd0348f96721447ad55f8e235",
+      "originalDimensions": [
+        1500,
+        1500
+      ],
+      "publishedDimensions": [
+        720,
+        900
+      ],
+      "processing": "Downloaded product-only photograph. Plain background removed by pixel comparison; proportional resize and padding only. No AI generation or inpainting."
+    },
+    {
+      "id": "packshot-5",
+      "source": "https://www.reversible.com/shopping/men/item/loro-piana-parksville-bomber-jacket-971010716",
+      "image": "https://image-raw.reversible.com/raw_images/7a426dd5788f51c714c532ead989d1383256fe5ad9a12364fd1dbc344c3bf069-width800",
+      "title": "Loro Piana Parksville Cashmere Bomber Jacket",
+      "original": "5-original.jpg",
+      "name": "Бомбер Loro Piana Parksville",
+      "category": "Куртки",
+      "color": "Графитовый",
+      "hex": "#3b3c40",
+      "price": 11900,
+      "description": "Трикотажный бомбер с молнией, коротким воротником и эластичными манжетами.",
+      "catalogPhoto": "/images/catalog/packshot-5.webp",
+      "replacementFor": "triumph-5",
+      "match": "approved similar replacement; not claimed as exact Instagram item",
+      "sha256Original": "255e51411167624200ee556a0f71a126a17ba0e581e3d58b0c8088b0ca4b4db6",
+      "sha256Published": "c94e92a96b2d14d1afb087f4250e998902c112f5404b1439b0135d328fae5ad2",
+      "originalDimensions": [
+        800,
+        1120
+      ],
+      "publishedDimensions": [
+        720,
+        900
+      ],
+      "processing": "Downloaded product-only photograph. Plain background removed by pixel comparison; proportional resize and padding only. No AI generation or inpainting."
+    },
+    {
+      "id": "packshot-4",
+      "source": "https://us.loropiana.com/en/p/man/polo-and-t-shirts/waitaki-polo-shirt-FAN4651",
+      "image": "https://media.loropiana.com/HYBRIS/FAN/FAN4651/2644535D-77B5-4285-A407-F28D87DCC0B6/FAN4651_M006_MEDIUM.jpg",
+      "title": "Waitaki Grey Melange Wool Polo Shirt",
+      "original": "4-original.jpg",
+      "name": "Поло Loro Piana Waitaki",
+      "category": "Лонгсливы",
+      "color": "Серый",
+      "hex": "#74777b",
+      "price": 8900,
+      "description": "Поло с длинным рукавом, отложным воротником и трикотажной отделкой.",
+      "catalogPhoto": "/images/catalog/packshot-4.webp",
+      "replacementFor": "triumph-4",
+      "match": "approved similar replacement; not claimed as exact Instagram item",
+      "sha256Original": "d2099877e0f16ec21ea33f81dde9325ca0b26068f15db4a95b3a7e6a0b9d10b4",
+      "sha256Published": "3c1b2594098ed775fa91c48d3cb7c493e1e6eeda6616f49615e35def66c4b87d",
+      "originalDimensions": [
+        690,
+        966
+      ],
+      "publishedDimensions": [
+        720,
+        900
+      ],
+      "processing": "Downloaded product-only photograph. Plain background removed by pixel comparison; proportional resize and padding only. No AI generation or inpainting."
+    },
+    {
+      "id": "packshot-21",
+      "source": "https://www.goat.com/apparel/burberry-check-zip-hoodie-nut-ip-check-8102881",
+      "image": "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/107/613/818/original/1564774_01.jpg.jpeg?width=750",
+      "title": "Burberry Check Zip Hoodie",
+      "original": "21-original.jpg",
+      "name": "Худи Burberry Check Zip",
+      "category": "Худи",
+      "color": "Коричневый",
+      "hex": "#9b795d",
+      "price": 11900,
+      "description": "Клетчатое худи на молнии. Модель Nut IP Check, артикул 8102881.",
+      "catalogPhoto": "/images/catalog/packshot-21.webp",
+      "replacementFor": "triumph-21",
+      "match": "approved similar replacement; not claimed as exact Instagram item",
+      "sha256Original": "ec1234fc713781c47750f6aa2c2a84c0753818d689ef8a68092e44b3c71a6926",
+      "sha256Published": "5ae263245d42d12b3f640acd30d0ad8e36ac5b84cc663f8af8fade7f73aee45f",
+      "originalDimensions": [
+        750,
+        750
+      ],
+      "publishedDimensions": [
+        720,
+        900
+      ],
+      "processing": "Downloaded product-only photograph. Plain background removed by pixel comparison; proportional resize and padding only. No AI generation or inpainting."
+    },
+    {
+      "id": "packshot-20",
+      "source": "https://www.consortium.co.uk/sunspel-loopback-zip-hooded-sweatshirt-black-mhod1517-bkaa.html",
+      "image": "https://www.consortium.co.uk/media/catalog/product/cache/1/small_image/790x/040ec09b1e35df139433887a97daa66f/s/u/sunspel-loopback-zip-hooded-sweatshirt-black-mhod1517-bkaa-cat_1.jpg",
+      "title": "Sunspel Loopback Zip Hooded Sweatshirt MHOD1517-BKAA",
+      "original": "20-original.jpg",
+      "name": "Худи Sunspel Loopback",
+      "category": "Худи",
+      "color": "Чёрный",
+      "hex": "#17191b",
+      "price": 9900,
+      "description": "Худи на молнии с карманами и шнурком в капюшоне. Артикул MHOD1517-BKAA.",
+      "catalogPhoto": "/images/catalog/packshot-20.webp",
+      "replacementFor": "triumph-20",
+      "match": "approved similar replacement; not claimed as exact Instagram item",
+      "sha256Original": "0237ab32eda1120f0058a3b4f31be5819052111b10fd38cfc4138907ce6f597c",
+      "sha256Published": "f09b3b2db048752ff77f1939d0a47c57aa9c692ecbc608275a832accacd14ea1",
+      "originalDimensions": [
+        790,
+        790
+      ],
+      "publishedDimensions": [
+        720,
+        900
+      ],
+      "processing": "Downloaded product-only photograph. Plain background removed by pixel comparison; proportional resize and padding only. No AI generation or inpainting."
+    },
+    {
+      "id": "packshot-29",
+      "source": "https://www.lyst.com/clothing/loro-piana-whitney-full-zip-hoodie/",
+      "image": "https://cdna.lystit.com/1040/1300/n/photos/bergdorfgoodman/7efcb0d2/1200x1500/loro-piana-BLUE-NAVY-Whitney-Full-Zip-Hoodie.jpeg",
+      "title": "Loro Piana Navy Blue Whitney Full-Zip Hoodie",
+      "original": "29-original.jpg",
+      "name": "Худи Loro Piana Whitney",
+      "category": "Худи",
+      "color": "Тёмно-синий",
+      "hex": "#202432",
+      "price": 10900,
+      "description": "Худи Whitney с застёжкой на молнию, карманами и трикотажными манжетами.",
+      "catalogPhoto": "/images/catalog/packshot-29.webp",
+      "replacementFor": "triumph-29",
+      "match": "approved similar replacement; not claimed as exact Instagram item",
+      "sha256Original": "da4e194d41fc201abddde7d05638ef87bd9d9763997847ba803881501d66454b",
+      "sha256Published": "fbcef30762680162cdfa551a8586abcbd255e45736e6f8488c79ea49cf8db991",
+      "originalDimensions": [
+        1040,
+        1300
+      ],
+      "publishedDimensions": [
+        720,
+        900
+      ],
+      "processing": "Downloaded product-only photograph. Plain background removed by pixel comparison; proportional resize and padding only. No AI generation or inpainting."
+    },
+    {
+      "id": "packshot-54",
+      "source": "https://www.mytheresa.com/sg/en/men/burberry-burberry-check-cotton-shirt-brown-p01096975",
+      "image": "https://www.mytheresa.com/image/1094/1238/100/d0/P01096975.jpg",
+      "title": "Burberry Check Cotton Shirt in Brown",
+      "original": "54-original.jpg",
+      "name": "Рубашка Burberry Check",
+      "category": "Куртки",
+      "color": "Коричневый",
+      "hex": "#54413b",
+      "price": 9900,
+      "description": "Рубашка в клетку Truffle/Beige с пуговицами и классическим воротником.",
+      "catalogPhoto": "/images/catalog/packshot-54.webp",
+      "replacementFor": "triumph-54",
+      "match": "approved similar replacement; not claimed as exact Instagram item",
+      "sha256Original": "6712c58a8ab7a27a6ee1a75ad5449503c48d12ebfadf2fd90dd50e2ec90ceab9",
+      "sha256Published": "913b47a97a7a1b579e4d499a59e0f86767d9e702122ed20d8848bfa83be967e7",
+      "originalDimensions": [
+        1094,
+        1237
+      ],
+      "publishedDimensions": [
+        720,
+        900
+      ],
+      "processing": "Downloaded product-only photograph. Plain background removed by pixel comparison; proportional resize and padding only. No AI generation or inpainting."
+    },
+    {
+      "id": "packshot-41",
+      "source": "https://www.lyst.co.uk/clothing/paul-shark-blouson-made-with-a-loro-piana-storm-system-fabric/",
+      "image": "https://cdna.lystit.com/1040/1300/n/photos/farfetch/41e30923/paul-shark-black-Veste-A-Fermeture-Zippee.jpeg",
+      "title": "Paul & Shark Blouson Made With A Loro Piana Storm System Fabric",
+      "original": "41-original.jpg",
+      "name": "Куртка Paul & Shark Storm System",
+      "category": "Куртки",
+      "color": "Чёрный",
+      "hex": "#16181a",
+      "price": 13900,
+      "description": "Куртка на молнии с отложным воротником и боковыми карманами.",
+      "catalogPhoto": "/images/catalog/packshot-41.webp",
+      "replacementFor": "triumph-41",
+      "match": "approved similar replacement; not claimed as exact Instagram item",
+      "sha256Original": "cec67812a58978af18c5e83c540f112b91d12bbada8eabe8f6af37c9c4bffe6e",
+      "sha256Published": "b72ba93922ed86db78888003d0616a71e4ae6d703eaecad063cb6c1aae818e05",
+      "originalDimensions": [
+        1040,
+        1300
+      ],
+      "publishedDimensions": [
+        720,
+        900
+      ],
+      "processing": "Downloaded product-only photograph. Plain background removed by pixel comparison; proportional resize and padding only. No AI generation or inpainting."
+    },
+    {
+      "id": "packshot-43",
+      "source": "https://www.solesense.com/en-gb/loro-piana-medway-shell-hooded-jacket-b2ib-fal7274-b2ib",
+      "image": "https://assets.solesense.com/en/images/products/500/loro-piana-medway-shell-hooded-jacket-b2ib-fal7274-b2ib_1.jpg",
+      "title": "Loro Piana Medway Shell Hooded Jacket",
+      "original": "43-original.jpg",
+      "name": "Ветровка Loro Piana Medway",
+      "category": "Куртки",
+      "color": "Коричневый",
+      "hex": "#4e3939",
+      "price": 12900,
+      "description": "Лёгкая куртка Medway с капюшоном, молнией и эластичной отделкой.",
+      "catalogPhoto": "/images/catalog/packshot-43.webp",
+      "replacementFor": "triumph-43",
+      "match": "approved similar replacement; not claimed as exact Instagram item",
+      "sha256Original": "a3d302572e86f5f7c071b76c57a037046cfa763241e915d27a036fa3c615ac53",
+      "sha256Published": "2968d85473c496a4619f3c038dd78461616e580c9e92ef780dbddf09581852c7",
+      "originalDimensions": [
+        500,
+        666
+      ],
+      "publishedDimensions": [
+        720,
+        900
+      ],
+      "processing": "Downloaded product-only photograph. Plain background removed by pixel comparison; proportional resize and padding only. No AI generation or inpainting."
+    },
+    {
+      "id": "packshot-44",
+      "source": "https://www.mrporter.com/en-us/mens/product/loro-piana/clothing/lightweight-waterproof-jackets/reversible-storm-systemr-windmater-shell-and-cashmere-hooded-bomber-jacket/46376663162903847",
+      "image": "https://www.mrporter.com/variants/images/46376663162903847/in/w2000_q60.jpg",
+      "title": "Loro Piana Reversible Storm System® Hooded Bomber Jacket",
+      "original": "44-original.jpg",
+      "name": "Бомбер Loro Piana Windmate",
+      "category": "Куртки",
+      "color": "Тауп",
+      "hex": "#8a877a",
+      "price": 12900,
+      "description": "Двусторонний бомбер Windmate Storm System с капюшоном и молнией.",
+      "catalogPhoto": "/images/catalog/packshot-44.webp",
+      "replacementFor": "triumph-44",
+      "match": "approved similar replacement; not claimed as exact Instagram item",
+      "sha256Original": "908345b359b7a2470c4aa4e85c85245673d1232d0e3590eeeb23d3cf613bc84f",
+      "sha256Published": "9882b932b82aec171d0fc0402fe51b4e457a78d0c4913acc003453f2c677ccec",
+      "originalDimensions": [
+        2000,
+        2667
+      ],
+      "publishedDimensions": [
+        720,
+        900
+      ],
+      "processing": "Downloaded product-only photograph. Plain background removed by pixel comparison; proportional resize and padding only. No AI generation or inpainting."
+    },
+    {
+      "id": "packshot-49",
+      "source": "https://www.mrporter.com/en-us/mens/product/loro-piana/clothing/knitted-zip-throughs/cashmere-zip-up-sweater/1647597310626259",
+      "image": "https://www.mrporter.com/variants/images/1647597310626259/in/w2000_q60.jpg",
+      "title": "Loro Piana Navy Cashmere Zip-Up Sweater",
+      "original": "49-original.jpg",
+      "name": "Кардиган Loro Piana Cashmere Zip-Up",
+      "category": "Куртки",
+      "color": "Тёмно-синий",
+      "hex": "#202635",
+      "price": 10900,
+      "description": "Кардиган на молнии с воротником-стойкой и боковыми карманами.",
+      "catalogPhoto": "/images/catalog/packshot-49.webp",
+      "replacementFor": "triumph-49",
+      "match": "approved similar replacement; not claimed as exact Instagram item",
+      "sha256Original": "03ea952f49e256214e12cca4b2be769a6a97a589b7bbcc9d502498172eabc9a8",
+      "sha256Published": "20f497ab22f31e154f7c352c22f4cc79693462d8a29714ea68760d0f4edb991c",
+      "originalDimensions": [
+        2000,
+        2667
+      ],
+      "publishedDimensions": [
+        720,
+        900
+      ],
+      "processing": "Downloaded product-only photograph. Plain background removed by pixel comparison; proportional resize and padding only. No AI generation or inpainting."
+    },
+    {
+      "id": "packshot-50",
+      "source": "https://www.lyst.com/clothing/loro-piana-cardigan-classic-zip-up/",
+      "image": "https://cdna.lystit.com/1040/1300/n/photos/sugar/b36497ee/1200x1600/loro-piana-Black-Cardigan-Classic-Zip-Up.jpeg",
+      "title": "Loro Piana Classic Zip-Up Cardigan",
+      "original": "50-original.jpg",
+      "name": "Кардиган Loro Piana Classic Zip-Up",
+      "category": "Куртки",
+      "color": "Чёрный",
+      "hex": "#222228",
+      "price": 10900,
+      "description": "Трикотажный кардиган Classic Zip-Up с молнией и высоким воротником.",
+      "catalogPhoto": "/images/catalog/packshot-50.webp",
+      "replacementFor": "triumph-50",
+      "match": "approved similar replacement; not claimed as exact Instagram item",
+      "sha256Original": "1d5abc2a549806a1c2fc95d59beaa95b15fda7890ce00621040d347f954ffb53",
+      "sha256Published": "1bd45ca05ccbcc198ebe6db67d19ba583c92a3f11d7905f48eca8ee634aaf2da",
+      "originalDimensions": [
+        1040,
+        1300
+      ],
+      "publishedDimensions": [
+        720,
+        900
+      ],
+      "processing": "Downloaded product-only photograph. Plain background removed by pixel comparison; proportional resize and padding only. No AI generation or inpainting."
+    },
+    {
+      "id": "packshot-0",
+      "source": "https://www.lyst.com/clothing/loro-piana-quarona-denim-five-pocket-pants-3/",
+      "image": "https://cdna.lystit.com/1040/1300/n/photos/neimanmarcus/35ecd0e7/loro-piana-516X-BLACK-PINE-Quarona-Denim-Five-Pocket-Pants.jpeg",
+      "title": "Loro Piana Quarona Denim Five-Pocket Pants",
+      "original": "0-original.jpg",
+      "name": "Джинсы Loro Piana Quarona",
+      "category": "Джинсы",
+      "color": "Коричневый",
+      "hex": "#534c3a",
+      "price": 8900,
+      "description": "Джинсы Quarona прямого кроя с пятью карманами. Цвет Black Pine.",
+      "catalogPhoto": "/images/catalog/packshot-0.webp",
+      "replacementFor": "triumph-0",
+      "match": "approved similar replacement; not claimed as exact Instagram item",
+      "sha256Original": "533fd7f27507c962efde2d77dfabee272d3e885659954e5487884566b3bd75c4",
+      "sha256Published": "a96a1a30a6bd39a10f098912c7b3f97a3e07626e2456160ca7071179fadcdb4f",
+      "originalDimensions": [
+        1040,
+        1300
+      ],
+      "publishedDimensions": [
+        720,
+        900
+      ],
+      "processing": "Downloaded product-only photograph. Plain background removed by pixel comparison; proportional resize and padding only. No AI generation or inpainting."
+    },
+    {
+      "id": "packshot-30",
+      "source": "https://www.lyst.com/clothing/loro-piana-duo-bomber-jacket/",
+      "image": "https://cdna.lystit.com/1040/1300/n/photos/senser/d9123f2e/622x748/loro-piana-F8VF-Duo-Bomber-Jacket.jpeg",
+      "title": "Loro Piana Duo Bomber Jacket",
+      "original": "30-original.jpg",
+      "name": "Бомбер Loro Piana Duo",
+      "category": "Куртки",
+      "color": "Коричневый",
+      "hex": "#706556",
+      "price": 13900,
+      "description": "Трикотажный бомбер Duo с капюшоном и молнией.",
+      "catalogPhoto": "/images/catalog/packshot-30.webp",
+      "replacementFor": "triumph-30",
+      "match": "approved similar replacement; not claimed as exact Instagram item",
+      "sha256Original": "98b0074a771de7cfe0ca746a00a12a91f61b67e4e534b15691ba304c52060ff1",
+      "sha256Published": "24b65ff69179ed739ea58e93deb2b34d0366e39bd15821c50e071dc8510f9726",
+      "originalDimensions": [
+        1040,
+        1300
+      ],
+      "publishedDimensions": [
+        720,
+        900
+      ],
+      "processing": "Downloaded product-only photograph. Plain background removed by pixel comparison; proportional resize and padding only. No AI generation or inpainting."
+    },
+    {
+      "id": "packshot-37",
+      "source": "https://www.mytheresa.com/us/en/men/loro-piana-merano-cashmere-hoodie-grey-p00897761",
+      "image": "https://www.mytheresa.com/image/1094/1238/100/03/P00897761.jpg",
+      "title": "Loro Piana Merano Cashmere Hoodie",
+      "original": "37-original.jpg",
+      "name": "Худи Loro Piana Merano",
+      "category": "Худи",
+      "color": "Светло-серый",
+      "hex": "#b2b3ae",
+      "price": 10900,
+      "description": "Худи Merano с молнией, боковыми карманами и эластичной отделкой.",
+      "catalogPhoto": "/images/catalog/packshot-37.webp",
+      "replacementFor": "triumph-37",
+      "match": "approved similar replacement; not claimed as exact Instagram item",
+      "sha256Original": "72643c314ce372ffcdc34b752d25e7d7534769b9810c6f53fc148a8cdf25c695",
+      "sha256Published": "fbc23008bbdd9313e19596e1a8f9fc6e3cf2543e5950b1e3f260183851e9aa17",
+      "originalDimensions": [
+        1094,
+        1237
+      ],
+      "publishedDimensions": [
+        720,
+        900
+      ],
+      "processing": "Downloaded product-only photograph. Plain background removed by pixel comparison; proportional resize and padding only. No AI generation or inpainting."
+    }
+  ],
+  "triumphProductsStatus": "Archived: worn-garment cutouts replaced by product-only photos after explicit approval of similar products."
 }
